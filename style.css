@@ -30,3 +30,37 @@ header div a:hover {
     color: #cfbbec;
     transition: color 700ms;
 }
+#box {
+   text-align: center; 
+   padding: 32px;  
+   font-family: 'Roboto', sans-serif; /
+}
+
+#box img {
+   border-radius: 50%; 
+   border: 5px  solid #470041 ; 
+   margin-bottom: 32px; 
+   
+}
+
+#box h1 {
+   font-size: 60px; 
+   line-height: 52px; 
+   font-weight: bold; 
+   font-weight: bolder;
+}
+#box h2 {
+   font-size: 30px; 
+   line-height: 34px; 
+   font-weight: bold;   
+   margin-top: 20px; 
+   opacity: 0.8;  
+}  
+
+#box p {
+   max-width: 500px;  
+   margin: 20px auto; 
+   font-size: 24px;  
+   line-height: 34px;
+   font-weight: bold;
+}
