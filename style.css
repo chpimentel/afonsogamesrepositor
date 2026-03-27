@@ -1,5 +1,5 @@
    :root{
-    --subcor: #1eff00;
+    --subcor: #8d4ca1;
    }
    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -26,8 +26,10 @@
         line-height: 20px;
         margin: 0 16px;
         text-decoration: none;
-        font-family: "Bebas Neue", sans-serif;
         font-weight: 500;
+        font-style: normal;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
         font-style: normal;
         }
 header div a:hover {
@@ -38,7 +40,9 @@ header div a:hover {
     color: rgb(255, 255, 255);
    text-align: center; 
    padding: 32px;  
-   font-family: "Bebas Neue", sans-serif; /
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 #box img {
@@ -83,19 +87,19 @@ header div a:hover {
         text-align: center;
 }
 #linksFooter a {
-        color: rgb(0, 102, 255);
+        color: #7641c2;
         padding-top: 32px;
-        padding-bottom: 3px;
-        border-bottom: 2px solid var(--subcor);
+        padding-bottom: 1.4px;
+        border-bottom: 3px solid var(--subcor);
         font-size: 30px;
         line-height: 20px;
         margin: 0 16px;
         text-decoration: none;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Oswald", sans-serif;
         font-weight: 500;
         font-style: Bold;
 }
 #linksFooter a:hover {
-    color: #cfbbec;
+    color: #8e4a91;
     transition: color 700ms;
 }
